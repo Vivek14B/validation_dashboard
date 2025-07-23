@@ -818,7 +818,7 @@ class DatabaseManager:
                 # The UNIQUE constraint on the column is the primary guard.
                 query = "INSERT IGNORE INTO `transaction_fingerprints` (run_id, fingerprint_hash) VALUES (%s, %s)"
                 cursor.executemany(query, data_to_insert)
-            conn.commit()
+            conn.commit()  
         except mysql.connector.Error as err:
             logging.error(f"Error saving transaction fingerprints for run {run_id}: {err}", exc_info=True)
             conn.rollback()
