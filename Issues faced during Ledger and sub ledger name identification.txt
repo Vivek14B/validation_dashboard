@@ -1,0 +1,21 @@
+Thank you so much for this excellent and precise feedback. This is incredibly helpful!
+
+Your diagnostic test confirms that:
+
+The mapping file (account_mapping.xlsx) is being read correctly.
+The key "INDIRECT-TRA-06" exists and is found within the mapping data.
+The fact that it is found in the debug block but not displayed in the final table points to a very specific issue: a column name collision during the pd.merge() operation.
+
+The Root Cause
+Here is what's happening:
+
+Your original exception data already contains a column named Account2.Name (which is likely empty or null for the rows with errors).
+The account_names_df also contains a column named Account2.Name.
+When pd.merge() combines them, to avoid losing data, it renames the columns. The original column becomes Account2.Name_x and the new, correct one from your mapping file becomes Account2.Name_y.
+My previous code was still looking for a single column named Account2.Name, which no longer existed after the merge, causing it to fall back to "N/A".
+The Definitive Fix
+The solution is to explicitly handle this collision. We will tell the merge function to add a suffix (_map) to the columns from the mapping file, and then we will copy the correct data from the new column (e.g., Account2.Name_map) into the final Account2.Name column.
+
+Please replace both show_ledger_summary_page and show_user_ledger_exceptions_page functions one last time with the corrected versions below. I have removed the debug block to clean up the UI and implemented the definitive fix for the column collision.
+
+

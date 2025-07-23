@@ -1,0 +1,702 @@
+--- Log session started at 2025-06-16 23:10:14.093222 ---
+2025-06-16 23:10:14,093 - INFO [dashboard.py:3078] - Dashboard application started.
+--- Log session started at 2025-06-16 23:11:30.630623 ---
+2025-06-16 23:11:30,632 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:11:37.169215 ---
+2025-06-16 23:11:37,170 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-16 23:11:42,295 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-16 23:11:42,302 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-16 23:11:42,308 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-16 23:11:42,312 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-16 23:11:42,317 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-16 23:11:42,322 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-16 23:11:42,326 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-16 23:11:42,331 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-16 23:11:42,336 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-16 23:11:42,341 - INFO [dashboard.py:788] - Loaded 7 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-16 23:11:42,346 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-16 23:11:42,351 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-16 23:11:42,356 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-16 23:11:42,361 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-16 23:11:42,366 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-16 23:11:42,371 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-16 23:11:42,376 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-16 23:11:42,381 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-16 23:11:42,389 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-16 23:11:42,394 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-16 23:11:42,394 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-16 23:11:42,421 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-16 23:11:42,437 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-16 23:11:44,025 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 1 to database.
+--- Log session started at 2025-06-16 23:11:49.645668 ---
+2025-06-16 23:11:49,646 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:11:53.305239 ---
+2025-06-16 23:11:53,306 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:34:50.830227 ---
+2025-06-16 23:34:50,831 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:34:52.860838 ---
+2025-06-16 23:34:52,861 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:34:53.667856 ---
+2025-06-16 23:34:53,668 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:34:59.898629 ---
+2025-06-16 23:34:59,899 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:37:49.387426 ---
+2025-06-16 23:37:49,388 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-16 23:37:50,102 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-16 23:37:50,110 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-16 23:37:50,119 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-16 23:37:50,129 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-16 23:37:50,137 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-16 23:37:50,143 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-16 23:37:50,148 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-16 23:37:50,154 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-16 23:37:50,160 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-16 23:37:50,165 - INFO [dashboard.py:788] - Loaded 7 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-16 23:37:50,170 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-16 23:37:50,174 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-16 23:37:50,178 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-16 23:37:50,182 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-16 23:37:50,186 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-16 23:37:50,190 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-16 23:37:50,194 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-16 23:37:50,198 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-16 23:37:50,203 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-16 23:37:50,207 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-16 23:37:50,207 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-16 23:37:50,208 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-16 23:37:50,209 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-16 23:37:50,319 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 2 to database.
+--- Log session started at 2025-06-16 23:38:02.387545 ---
+2025-06-16 23:38:02,388 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:38:05.194527 ---
+2025-06-16 23:38:05,196 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-16 23:39:05.437881 ---
+2025-06-16 23:39:05,439 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:00.424311 ---
+2025-06-17 09:21:00,425 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:03.826957 ---
+2025-06-17 09:21:03,827 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:05.957535 ---
+2025-06-17 09:21:05,958 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:13.585111 ---
+2025-06-17 09:21:13,586 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:15.014567 ---
+2025-06-17 09:21:15,015 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:16.176340 ---
+2025-06-17 09:21:16,177 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-17 09:21:16,185 - INFO [dashboard.py:2851] - Cleared table: validation_runs
+2025-06-17 09:21:16,196 - INFO [dashboard.py:2851] - Cleared table: exceptions
+2025-06-17 09:21:16,197 - INFO [dashboard.py:2851] - Cleared table: department_summary
+2025-06-17 09:21:16,198 - INFO [dashboard.py:2851] - Cleared table: user_performance
+2025-06-17 09:21:16,230 - INFO [dashboard.py:2852] - Database cleared successfully by user from settings page.
+--- Log session started at 2025-06-17 09:21:22.046476 ---
+2025-06-17 09:21:22,047 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:28.372279 ---
+2025-06-17 09:21:28,373 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:21:30.764461 ---
+2025-06-17 09:21:30,764 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:29:00.170994 ---
+2025-06-17 09:29:00,171 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:29:39.477529 ---
+2025-06-17 09:29:39,478 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:29:43.287046 ---
+2025-06-17 09:29:43,287 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-17 09:29:48,472 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-17 09:29:48,482 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-17 09:29:48,488 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-17 09:29:48,495 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-17 09:29:48,502 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-17 09:29:48,507 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-17 09:29:48,514 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-17 09:29:48,519 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-17 09:29:48,524 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-17 09:29:48,529 - INFO [dashboard.py:788] - Loaded 7 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-17 09:29:48,534 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-17 09:29:48,539 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-17 09:29:48,544 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-17 09:29:48,549 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-17 09:29:48,557 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-17 09:29:48,569 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-17 09:29:48,576 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-17 09:29:48,585 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-17 09:29:48,591 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-17 09:29:48,595 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-17 09:29:48,595 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-17 09:29:48,619 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-17 09:29:48,636 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-17 09:29:50,319 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 3 to database.
+--- Log session started at 2025-06-17 09:29:59.796855 ---
+2025-06-17 09:29:59,797 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:30:05.914333 ---
+2025-06-17 09:30:05,915 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:30:09.383687 ---
+2025-06-17 09:30:09,385 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:30:10.217980 ---
+2025-06-17 09:30:10,219 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-17 09:30:10,247 - INFO [dashboard.py:390] - Successfully deleted run ID: 3 and all associated data.
+--- Log session started at 2025-06-17 09:30:10.300875 ---
+2025-06-17 09:30:10,301 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:30:13.196570 ---
+2025-06-17 09:30:13,197 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:32:12.689352 ---
+2025-06-17 09:32:12,690 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:32:15.873779 ---
+2025-06-17 09:32:15,875 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:32:35.426040 ---
+2025-06-17 09:32:35,427 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-17 09:32:36,104 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-17 09:32:36,111 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-17 09:32:36,117 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-17 09:32:36,122 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-17 09:32:36,129 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-17 09:32:36,135 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-17 09:32:36,140 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-17 09:32:36,144 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-17 09:32:36,149 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-17 09:32:36,156 - INFO [dashboard.py:788] - Loaded 7 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-17 09:32:36,161 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-17 09:32:36,165 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-17 09:32:36,169 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-17 09:32:36,173 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-17 09:32:36,176 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-17 09:32:36,180 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-17 09:32:36,184 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-17 09:32:36,188 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-17 09:32:36,192 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-17 09:32:36,196 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-17 09:32:36,196 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-17 09:32:36,197 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-17 09:32:36,198 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-17 09:32:36,305 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 4 to database.
+--- Log session started at 2025-06-17 09:33:04.062314 ---
+2025-06-17 09:33:04,063 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 09:33:06.458498 ---
+2025-06-17 09:33:06,458 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-17 10:53:08.335518 ---
+2025-06-17 10:53:08,345 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:43:19.933702 ---
+2025-06-18 09:43:19,934 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:43:47.377373 ---
+2025-06-18 09:43:47,378 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:44:24.125423 ---
+2025-06-18 09:44:24,127 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:44:27.449082 ---
+2025-06-18 09:44:27,449 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 09:44:28,139 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 09:44:28,150 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 09:44:28,157 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 09:44:28,167 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 09:44:28,175 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 09:44:28,184 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 09:44:28,189 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 09:44:28,199 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 09:44:28,208 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 09:44:28,213 - INFO [dashboard.py:788] - Loaded 7 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 09:44:28,219 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 09:44:28,224 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 09:44:28,228 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 09:44:28,233 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 09:44:28,237 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 09:44:28,241 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 09:44:28,246 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 09:44:28,250 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 09:44:28,256 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 09:44:28,261 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 09:44:28,261 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 09:44:28,289 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 09:44:28,290 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 09:44:28,522 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 5 to database.
+--- Log session started at 2025-06-18 09:44:36.723509 ---
+2025-06-18 09:44:36,723 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:44:38.697484 ---
+2025-06-18 09:44:38,699 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:44:39.422122 ---
+2025-06-18 09:44:39,423 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 09:44:42.873061 ---
+2025-06-18 09:44:42,874 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:56:32.385805 ---
+2025-06-18 11:56:32,391 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:56:36.947623 ---
+2025-06-18 11:56:36,948 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:57:06.949755 ---
+2025-06-18 11:57:06,950 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:57:10.178064 ---
+2025-06-18 11:57:10,178 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 11:57:15,364 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 11:57:15,374 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 11:57:15,379 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 11:57:15,384 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 11:57:15,389 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 11:57:15,394 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 11:57:15,398 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 11:57:15,403 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 11:57:15,409 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 11:57:15,413 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 11:57:15,418 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 11:57:15,423 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 11:57:15,430 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 11:57:15,436 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 11:57:15,441 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 11:57:15,446 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 11:57:15,455 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 11:57:15,460 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 11:57:15,466 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 11:57:15,472 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 11:57:15,473 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 11:57:15,474 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 11:57:15,491 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 11:57:17,168 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 6 to database.
+--- Log session started at 2025-06-18 11:57:24.098342 ---
+2025-06-18 11:57:24,098 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:57:33.535301 ---
+2025-06-18 11:57:33,535 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 11:57:42.774232 ---
+2025-06-18 11:57:42,776 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:35:35.303424 ---
+2025-06-18 12:35:35,304 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:36:05.722675 ---
+2025-06-18 12:36:05,723 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:36:14.833795 ---
+2025-06-18 12:36:14,834 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:36:23.211219 ---
+2025-06-18 12:36:23,212 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:36:25.291224 ---
+2025-06-18 12:36:25,292 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:36:28.448199 ---
+2025-06-18 12:36:28,448 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:38:49.146825 ---
+2025-06-18 12:38:49,148 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:39:03.167823 ---
+2025-06-18 12:39:03,168 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:39:07,802 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:39:07,813 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:39:07,820 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:39:07,827 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:39:07,832 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:39:07,837 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:39:07,842 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:39:07,847 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:39:07,852 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:39:07,857 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:39:07,862 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:39:07,868 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:39:07,873 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:39:07,881 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:39:07,886 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:39:07,892 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:39:07,897 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:39:07,901 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:39:07,907 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:39:07,912 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:39:07,912 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:39:07,913 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:39:07,926 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:39:21,119 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 7 to database.
+--- Log session started at 2025-06-18 12:39:25.172466 ---
+2025-06-18 12:39:25,172 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:39:33.358844 ---
+2025-06-18 12:39:33,359 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:39:44.647616 ---
+2025-06-18 12:39:44,648 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:39:49.109694 ---
+2025-06-18 12:39:49,111 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:39:58.466358 ---
+2025-06-18 12:39:58,467 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:39:59,307 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:39:59,317 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:39:59,325 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:39:59,334 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:39:59,341 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:39:59,349 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:39:59,356 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:39:59,360 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:39:59,365 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:39:59,372 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:39:59,377 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:39:59,384 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:39:59,388 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:39:59,392 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:39:59,396 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:39:59,401 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:39:59,405 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:39:59,409 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:39:59,415 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:39:59,419 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:39:59,420 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:39:59,420 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:39:59,421 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:39:59,550 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 8 to database.
+--- Log session started at 2025-06-18 12:40:09.012904 ---
+2025-06-18 12:40:09,013 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:40:10.350159 ---
+2025-06-18 12:40:10,350 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:40:16.029092 ---
+2025-06-18 12:40:16,030 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:40:23.618287 ---
+2025-06-18 12:40:23,620 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:40:24,441 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:40:24,448 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:40:24,454 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:40:24,460 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:40:24,465 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:40:24,474 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:40:24,479 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:40:24,487 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:40:24,493 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:40:24,503 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:40:24,513 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:40:24,523 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:40:24,532 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:40:24,537 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:40:24,541 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:40:24,545 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:40:24,549 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:40:24,554 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:40:24,559 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:40:24,563 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:40:24,563 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:40:24,564 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:40:24,565 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:40:24,703 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 9 to database.
+--- Log session started at 2025-06-18 12:40:50.597391 ---
+2025-06-18 12:40:50,597 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:16.092063 ---
+2025-06-18 12:41:16,093 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:28.057959 ---
+2025-06-18 12:41:28,058 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:33.292402 ---
+2025-06-18 12:41:33,294 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:40.612462 ---
+2025-06-18 12:41:40,614 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:41:41,480 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:41:41,487 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:41:41,492 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:41:41,498 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:41:41,504 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:41:41,511 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:41:41,519 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:41:41,526 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:41:41,534 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:41:41,540 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:41:41,546 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:41:41,551 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:41:41,556 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:41:41,560 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:41:41,565 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:41:41,569 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:41:41,573 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:41:41,578 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:41:41,583 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:41:41,588 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:41:41,588 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:41:41,589 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:41:41,590 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:41:41,675 - INFO [dashboard.py:1227] - create_excel_report: exceptions_df is empty for VNR_SEEDS_PRIVATE_LIMITEDActual_Expense_Reportdaily12.06.2025.xlsx. Creating empty Exceptions sheet.
+2025-06-18 12:41:41,706 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 10 to database.
+--- Log session started at 2025-06-18 12:41:49.762147 ---
+2025-06-18 12:41:49,762 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:55.389034 ---
+2025-06-18 12:41:55,389 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:41:59.689383 ---
+2025-06-18 12:41:59,691 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:42:00,569 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:42:00,578 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:42:00,583 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:42:00,591 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:42:00,598 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:42:00,607 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:42:00,617 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:42:00,624 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:42:00,631 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:42:00,636 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:42:00,643 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:42:00,648 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:42:00,652 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:42:00,657 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:42:00,662 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:42:00,666 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:42:00,670 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:42:00,674 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:42:00,682 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:42:00,686 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:42:00,686 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:42:00,687 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:42:00,688 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:42:00,836 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 11 to database.
+--- Log session started at 2025-06-18 12:42:10.697581 ---
+2025-06-18 12:42:10,698 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:42:14.537979 ---
+2025-06-18 12:42:14,539 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:42:20.671369 ---
+2025-06-18 12:42:20,672 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:42:21,562 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:42:21,569 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:42:21,579 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:42:21,590 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:42:21,597 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:42:21,603 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:42:21,608 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:42:21,615 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:42:21,620 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:42:21,626 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:42:21,631 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:42:21,640 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:42:21,657 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:42:21,666 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:42:21,676 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:42:21,683 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:42:21,689 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:42:21,693 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:42:21,699 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:42:21,703 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:42:21,704 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:42:21,704 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:42:21,705 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:42:21,836 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 12 to database.
+--- Log session started at 2025-06-18 12:42:32.905028 ---
+2025-06-18 12:42:32,905 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:42:42.328678 ---
+2025-06-18 12:42:42,330 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:42:43,195 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:42:43,206 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:42:43,211 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:42:43,220 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:42:43,228 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:42:43,232 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:42:43,240 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:42:43,246 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:42:43,253 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:42:43,259 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:42:43,264 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:42:43,268 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:42:43,273 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:42:43,278 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:42:43,283 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:42:43,288 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:42:43,294 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:42:43,300 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:42:43,312 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:42:43,321 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:42:43,322 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:42:43,323 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 12:42:43,327 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 12:42:43,459 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 13 to database.
+--- Log session started at 2025-06-18 12:42:51.747487 ---
+2025-06-18 12:42:51,748 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:42:58.862652 ---
+2025-06-18 12:42:58,863 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:06.229935 ---
+2025-06-18 12:43:06,230 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:35.431983 ---
+2025-06-18 12:43:35,432 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:38.889092 ---
+2025-06-18 12:43:38,889 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:43.711806 ---
+2025-06-18 12:43:43,712 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:46.737774 ---
+2025-06-18 12:43:46,739 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:47.225196 ---
+2025-06-18 12:43:47,225 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:43:47,262 - INFO [dashboard.py:390] - Successfully deleted run ID: 6 and all associated data.
+--- Log session started at 2025-06-18 12:43:47.335604 ---
+2025-06-18 12:43:47,336 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:50.845982 ---
+2025-06-18 12:43:50,846 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:43:57.176870 ---
+2025-06-18 12:43:57,178 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:44:25.662993 ---
+2025-06-18 12:44:25,663 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:44:39.317311 ---
+2025-06-18 12:44:39,318 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:44:40.295818 ---
+2025-06-18 12:44:40,306 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:44:48.635725 ---
+2025-06-18 12:44:48,636 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:44:59.222386 ---
+2025-06-18 12:44:59,223 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:47:54.920632 ---
+2025-06-18 12:47:54,921 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 12:48:03.088429 ---
+2025-06-18 12:48:03,089 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 12:48:03,158 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 12:48:03,168 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 12:48:03,176 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 12:48:03,183 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 12:48:03,189 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 12:48:03,196 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 12:48:03,202 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 12:48:03,208 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 12:48:03,214 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 12:48:03,220 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 12:48:03,226 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 12:48:03,232 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 12:48:03,240 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 12:48:03,246 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 12:48:03,252 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 12:48:03,260 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 12:48:03,267 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 12:48:03,275 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 12:48:03,281 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 12:48:03,288 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 12:48:03,288 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 12:48:03,290 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+--- Log session started at 2025-06-18 12:49:37.843324 ---
+2025-06-18 12:49:37,843 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 13:04:45.462945 ---
+2025-06-18 13:04:45,463 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 13:05:48.940865 ---
+2025-06-18 13:05:48,942 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:11:37.473408 ---
+2025-06-18 17:11:37,474 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:12:17.794357 ---
+2025-06-18 17:12:17,795 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:12:26.394932 ---
+2025-06-18 17:12:26,395 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 17:12:27,820 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 17:12:27,854 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 17:12:27,881 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 17:12:27,909 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 17:12:27,925 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 17:12:27,936 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 17:12:27,947 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 17:12:27,958 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 17:12:27,981 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 17:12:28,008 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 17:12:28,027 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 17:12:28,042 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 17:12:28,062 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 17:12:28,073 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 17:12:28,082 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 17:12:28,093 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 17:12:28,103 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 17:12:28,111 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 17:12:28,125 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 17:12:28,135 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 17:12:28,135 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 17:12:28,205 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 17:12:28,208 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 17:12:28,484 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 14 to database.
+--- Log session started at 2025-06-18 17:13:02.745371 ---
+2025-06-18 17:13:02,746 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:13:28.122238 ---
+2025-06-18 17:13:28,124 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:13:31.591947 ---
+2025-06-18 17:13:31,594 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:13:34.371035 ---
+2025-06-18 17:13:34,374 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:19:35.037650 ---
+2025-06-18 17:19:35,038 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:19:55.671958 ---
+2025-06-18 17:19:55,672 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:20:19.892125 ---
+2025-06-18 17:20:19,894 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 17:20:20,048 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 17:20:20,069 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 17:20:20,081 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 17:20:20,092 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 17:20:20,107 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 17:20:20,125 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 17:20:20,146 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 17:20:20,159 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 17:20:20,178 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 17:20:20,196 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 17:20:20,216 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 17:20:20,235 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 17:20:20,252 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 17:20:20,269 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 17:20:20,290 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 17:20:20,312 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 17:20:20,326 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 17:20:20,341 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 17:20:20,355 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 17:20:20,378 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 17:20:20,380 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 17:20:20,383 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+--- Log session started at 2025-06-18 17:24:03.195577 ---
+2025-06-18 17:24:03,197 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:24:24.269311 ---
+2025-06-18 17:24:24,270 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:27:50.801718 ---
+2025-06-18 17:27:50,804 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 17:27:52,126 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 17:27:52,138 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 17:27:52,146 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 17:27:52,156 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 17:27:52,165 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 17:27:52,174 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 17:27:52,183 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 17:27:52,192 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 17:27:52,201 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 17:27:52,210 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 17:27:52,219 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 17:27:52,228 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 17:27:52,236 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 17:27:52,246 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 17:27:52,254 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 17:27:52,262 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 17:27:52,270 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 17:27:52,280 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 17:27:52,295 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 17:27:52,304 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 17:27:52,304 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 17:27:52,305 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 17:27:52,307 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 17:27:52,510 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 15 to database.
+--- Log session started at 2025-06-18 17:28:08.805053 ---
+2025-06-18 17:28:08,806 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:28:13.256189 ---
+2025-06-18 17:28:13,257 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 17:28:48.214886 ---
+2025-06-18 17:28:48,216 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:44:57.716278 ---
+2025-06-18 18:44:57,717 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:44:58.887443 ---
+2025-06-18 18:44:58,909 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:45:20.929423 ---
+2025-06-18 18:45:20,931 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:46:01.818447 ---
+2025-06-18 18:46:01,819 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:46:07.784027 ---
+2025-06-18 18:46:07,785 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:46:23.165107 ---
+2025-06-18 18:46:23,165 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:49:29.138095 ---
+2025-06-18 18:49:29,139 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:49:31.116466 ---
+2025-06-18 18:49:31,117 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:49:35.235042 ---
+2025-06-18 18:49:35,235 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:57:33.079288 ---
+2025-06-18 18:57:33,081 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:57:41.058297 ---
+2025-06-18 18:57:41,059 - INFO [dashboard.py:3053] - Dashboard application started.
+2025-06-18 18:57:50,748 - INFO [dashboard.py:788] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-18 18:57:50,759 - INFO [dashboard.py:788] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-18 18:57:50,773 - INFO [dashboard.py:788] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-18 18:57:50,784 - INFO [dashboard.py:788] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-18 18:57:50,793 - INFO [dashboard.py:788] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-18 18:57:50,805 - INFO [dashboard.py:788] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-18 18:57:50,814 - INFO [dashboard.py:788] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-18 18:57:50,823 - INFO [dashboard.py:788] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-18 18:57:50,832 - INFO [dashboard.py:788] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-18 18:57:50,841 - INFO [dashboard.py:788] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-18 18:57:50,851 - INFO [dashboard.py:788] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-18 18:57:50,862 - INFO [dashboard.py:788] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-18 18:57:50,886 - INFO [dashboard.py:788] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-18 18:57:50,902 - INFO [dashboard.py:788] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-18 18:57:50,914 - INFO [dashboard.py:788] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-18 18:57:50,927 - INFO [dashboard.py:788] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-18 18:57:50,935 - INFO [dashboard.py:788] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-18 18:57:50,943 - INFO [dashboard.py:788] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-18 18:57:50,953 - INFO [dashboard.py:788] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-18 18:57:50,961 - INFO [dashboard.py:788] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-18 18:57:50,961 - INFO [dashboard.py:811] - Reference data loading process completed.
+2025-06-18 18:57:50,962 - INFO [dashboard.py:699] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-18 18:57:50,988 - INFO [dashboard.py:1156] - Starting parallel validation with 8 workers.
+2025-06-18 18:57:52,661 - INFO [dashboard.py:356] - Successfully saved Excel report for run_id 16 to database.
+--- Log session started at 2025-06-18 18:58:07.036589 ---
+2025-06-18 18:58:07,037 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-18 18:58:09.295357 ---
+2025-06-18 18:58:09,296 - INFO [dashboard.py:3053] - Dashboard application started.
+--- Log session started at 2025-06-19 09:30:38.422642 ---
+2025-06-19 09:30:38,422 - INFO [dashboard.py:3053] - Dashboard application started.

@@ -1,0 +1,1881 @@
+--- Log session started at 2025-06-20 23:38:21.256406 ---
+--- Log session started at 2025-06-20 23:38:50.611786 ---
+2025-06-20 23:38:50,612 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:38:52.777964 ---
+2025-06-20 23:38:52,778 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:39:02.255504 ---
+2025-06-20 23:39:02,256 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:39:02.345245 ---
+2025-06-20 23:39:02,345 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:39:02.603911 ---
+2025-06-20 23:39:02,605 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:39:08.617770 ---
+2025-06-20 23:39:08,619 - INFO [dashboard.py:3696] - Dashboard application started.
+2025-06-20 23:39:13,650 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-20 23:39:13,658 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-20 23:39:13,664 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-20 23:39:13,669 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-20 23:39:13,674 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-20 23:39:13,678 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-20 23:39:13,683 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-20 23:39:13,688 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-20 23:39:13,693 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-20 23:39:13,698 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-20 23:39:13,703 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-20 23:39:13,709 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-20 23:39:13,714 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-20 23:39:13,719 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-20 23:39:13,724 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-20 23:39:13,730 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-20 23:39:13,735 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-20 23:39:13,741 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-20 23:39:13,746 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-20 23:39:13,751 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-20 23:39:13,751 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-20 23:39:13,777 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-20 23:39:13,791 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-20 23:39:14,332 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 1 ---
+2025-06-20 23:39:14,334 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            665
+1       Acct11            347
+2       Acct17           2176
+3       Acct18             20
+4       Acct20           1621
+2025-06-20 23:39:14,335 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17               25.0
+3       Acct18                2.0
+4       Acct20               79.0
+2025-06-20 23:39:14,335 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            665                0.0
+1       Acct11            347                1.0
+2       Acct17           2176               25.0
+3       Acct18             20                2.0
+4       Acct20           1621               79.0
+2025-06-20 23:39:14,339 - INFO [dashboard.py:592] - Successfully saved user performance for 17 user(s) in run 1.
+--- Log session started at 2025-06-20 23:39:18.739434 ---
+2025-06-20 23:39:18,741 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:39:22.288140 ---
+2025-06-20 23:39:22,288 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:40:44.608611 ---
+2025-06-20 23:40:44,609 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-20 23:41:04.124647 ---
+2025-06-20 23:41:04,125 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:09:57.853148 ---
+2025-06-21 09:09:57,853 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:29.599842 ---
+2025-06-21 09:10:29,601 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:29.881147 ---
+2025-06-21 09:10:29,881 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:39.546869 ---
+2025-06-21 09:10:39,547 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:39.822152 ---
+2025-06-21 09:10:39,822 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:47.436070 ---
+2025-06-21 09:10:47,437 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:47.707908 ---
+2025-06-21 09:10:47,708 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:54.924470 ---
+2025-06-21 09:10:54,927 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:10:55.191020 ---
+2025-06-21 09:10:55,192 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:03.493092 ---
+2025-06-21 09:11:03,494 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:03.770378 ---
+2025-06-21 09:11:03,770 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:11.454746 ---
+2025-06-21 09:11:11,455 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:11.719414 ---
+2025-06-21 09:11:11,719 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:25.044258 ---
+2025-06-21 09:11:25,044 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:25.312065 ---
+2025-06-21 09:11:25,314 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:44.683970 ---
+2025-06-21 09:11:44,684 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:44.964224 ---
+2025-06-21 09:11:44,964 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:54.402203 ---
+2025-06-21 09:11:54,403 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:11:54.673752 ---
+2025-06-21 09:11:54,674 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:04.880193 ---
+2025-06-21 09:12:04,880 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:05.149963 ---
+2025-06-21 09:12:05,150 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:13.088862 ---
+2025-06-21 09:12:13,090 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:13.362140 ---
+2025-06-21 09:12:13,362 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:22.293987 ---
+2025-06-21 09:12:22,294 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:22.557154 ---
+2025-06-21 09:12:22,557 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:30.610448 ---
+2025-06-21 09:12:30,610 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:30.876114 ---
+2025-06-21 09:12:30,876 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:38.989174 ---
+2025-06-21 09:12:38,989 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:39.278346 ---
+2025-06-21 09:12:39,278 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:47.050673 ---
+2025-06-21 09:12:47,050 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:47.313942 ---
+2025-06-21 09:12:47,314 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:56.272168 ---
+2025-06-21 09:12:56,273 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:12:56.558127 ---
+2025-06-21 09:12:56,558 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:05.081463 ---
+2025-06-21 09:13:05,082 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:05.367135 ---
+2025-06-21 09:13:05,367 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:13.816659 ---
+2025-06-21 09:13:13,817 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:14.085926 ---
+2025-06-21 09:13:14,086 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:22.750176 ---
+2025-06-21 09:13:22,751 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:23.022582 ---
+2025-06-21 09:13:23,023 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:33.470909 ---
+2025-06-21 09:13:33,471 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:33.739831 ---
+2025-06-21 09:13:33,740 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:48.312676 ---
+2025-06-21 09:13:48,314 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:48.590993 ---
+2025-06-21 09:13:48,591 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:57.118383 ---
+2025-06-21 09:13:57,118 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:13:57.382695 ---
+2025-06-21 09:13:57,382 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:05.527715 ---
+2025-06-21 09:14:05,528 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:05.797031 ---
+2025-06-21 09:14:05,797 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:14.277895 ---
+2025-06-21 09:14:14,278 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:14.553287 ---
+2025-06-21 09:14:14,553 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:22.232060 ---
+2025-06-21 09:14:22,233 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:22.501524 ---
+2025-06-21 09:14:22,502 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:30.015572 ---
+2025-06-21 09:14:30,016 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:30.284371 ---
+2025-06-21 09:14:30,285 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:38.729348 ---
+2025-06-21 09:14:38,729 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:38.995356 ---
+2025-06-21 09:14:38,995 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:46.560842 ---
+2025-06-21 09:14:46,561 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:46.836619 ---
+2025-06-21 09:14:46,837 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:54.492618 ---
+2025-06-21 09:14:54,493 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:14:54.803158 ---
+2025-06-21 09:14:54,803 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:03.880532 ---
+2025-06-21 09:15:03,880 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:04.196001 ---
+2025-06-21 09:15:04,197 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:11.713707 ---
+2025-06-21 09:15:11,714 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:11.983252 ---
+2025-06-21 09:15:11,983 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:21.566921 ---
+2025-06-21 09:15:21,567 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:21.837589 ---
+2025-06-21 09:15:21,838 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:29.660295 ---
+2025-06-21 09:15:29,660 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:29.936279 ---
+2025-06-21 09:15:29,936 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:37.701950 ---
+2025-06-21 09:15:37,704 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:37.982694 ---
+2025-06-21 09:15:37,983 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:48.401011 ---
+2025-06-21 09:15:48,401 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:48.678210 ---
+2025-06-21 09:15:48,678 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:57.694313 ---
+2025-06-21 09:15:57,694 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:15:58.011076 ---
+2025-06-21 09:15:58,011 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:16:08.874092 ---
+2025-06-21 09:16:08,875 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:16:09.153022 ---
+2025-06-21 09:16:09,153 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:13.290887 ---
+2025-06-21 09:17:13,292 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:18.726697 ---
+2025-06-21 09:17:18,727 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:20.201237 ---
+2025-06-21 09:17:20,201 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:20.275510 ---
+2025-06-21 09:17:20,276 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:25.676496 ---
+2025-06-21 09:17:25,676 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:36.098015 ---
+2025-06-21 09:17:36,098 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:40.728949 ---
+2025-06-21 09:17:40,729 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:41.380659 ---
+2025-06-21 09:17:41,381 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:41.454501 ---
+2025-06-21 09:17:41,455 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:45.100085 ---
+2025-06-21 09:17:45,100 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:49.661103 ---
+2025-06-21 09:17:49,661 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:50.270495 ---
+2025-06-21 09:17:50,272 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:50.357725 ---
+2025-06-21 09:17:50,374 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:54.502735 ---
+2025-06-21 09:17:54,504 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:57.662335 ---
+2025-06-21 09:17:57,662 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:58.586697 ---
+2025-06-21 09:17:58,587 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:17:58.667424 ---
+2025-06-21 09:17:58,667 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:02.686104 ---
+2025-06-21 09:18:02,686 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:05.757132 ---
+2025-06-21 09:18:05,757 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:06.781010 ---
+2025-06-21 09:18:06,781 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:06.891876 ---
+2025-06-21 09:18:06,892 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:10.109984 ---
+2025-06-21 09:18:10,110 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:13.735293 ---
+2025-06-21 09:18:13,736 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:14.666895 ---
+2025-06-21 09:18:14,668 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:14.742293 ---
+2025-06-21 09:18:14,742 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:20.548694 ---
+2025-06-21 09:18:20,549 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:23.642519 ---
+2025-06-21 09:18:23,642 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:25.316559 ---
+2025-06-21 09:18:25,317 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:25.393034 ---
+2025-06-21 09:18:25,393 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:18:31.741708 ---
+2025-06-21 09:18:31,742 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:28.912141 ---
+2025-06-21 09:19:28,913 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:32.876208 ---
+2025-06-21 09:19:32,876 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:35.568400 ---
+2025-06-21 09:19:35,568 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:36.300309 ---
+2025-06-21 09:19:36,300 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:36.373704 ---
+2025-06-21 09:19:36,374 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:43.548128 ---
+2025-06-21 09:19:43,548 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:46.418124 ---
+2025-06-21 09:19:46,418 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:47.153219 ---
+2025-06-21 09:19:47,153 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:47.221342 ---
+2025-06-21 09:19:47,221 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:53.463486 ---
+2025-06-21 09:19:53,464 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:56.471549 ---
+2025-06-21 09:19:56,472 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:57.159814 ---
+2025-06-21 09:19:57,159 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:19:57.226615 ---
+2025-06-21 09:19:57,227 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:09.006921 ---
+2025-06-21 09:20:09,007 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:11.832673 ---
+2025-06-21 09:20:11,834 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:13.067928 ---
+2025-06-21 09:20:13,069 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:13.138121 ---
+2025-06-21 09:20:13,138 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:20.114659 ---
+2025-06-21 09:20:20,115 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:22.607465 ---
+2025-06-21 09:20:22,608 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:23.451667 ---
+2025-06-21 09:20:23,452 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:23.521663 ---
+2025-06-21 09:20:23,522 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:36.693953 ---
+2025-06-21 09:20:36,695 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:42.415885 ---
+2025-06-21 09:20:42,416 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:42.899805 ---
+2025-06-21 09:20:42,901 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:42.969989 ---
+2025-06-21 09:20:42,970 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:48.920592 ---
+2025-06-21 09:20:48,921 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:53.525119 ---
+2025-06-21 09:20:53,525 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:54.019806 ---
+2025-06-21 09:20:54,021 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:54.086851 ---
+2025-06-21 09:20:54,087 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:20:57.566172 ---
+2025-06-21 09:20:57,566 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:00.489004 ---
+2025-06-21 09:21:00,490 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:01.117727 ---
+2025-06-21 09:21:01,119 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:01.190121 ---
+2025-06-21 09:21:01,190 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:07.739488 ---
+2025-06-21 09:21:07,740 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:10.628670 ---
+2025-06-21 09:21:10,628 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:11.268219 ---
+2025-06-21 09:21:11,268 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:11.335377 ---
+2025-06-21 09:21:11,335 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:21.222586 ---
+2025-06-21 09:21:21,224 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:24.014643 ---
+2025-06-21 09:21:24,014 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:24.936315 ---
+2025-06-21 09:21:24,936 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:24.999691 ---
+2025-06-21 09:21:25,000 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:31.846438 ---
+2025-06-21 09:21:31,847 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:36.291853 ---
+2025-06-21 09:21:36,292 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:36.917807 ---
+2025-06-21 09:21:36,918 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:36.989461 ---
+2025-06-21 09:21:36,989 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:43.018899 ---
+2025-06-21 09:21:43,019 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:45.541317 ---
+2025-06-21 09:21:45,541 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:46.267675 ---
+2025-06-21 09:21:46,268 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:46.335043 ---
+2025-06-21 09:21:46,335 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:50.253040 ---
+2025-06-21 09:21:50,253 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:53.717413 ---
+2025-06-21 09:21:53,717 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:54.285133 ---
+2025-06-21 09:21:54,286 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:54.352771 ---
+2025-06-21 09:21:54,353 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:21:59.703741 ---
+2025-06-21 09:21:59,704 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:02.510253 ---
+2025-06-21 09:22:02,510 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:02.985196 ---
+2025-06-21 09:22:02,986 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:03.053984 ---
+2025-06-21 09:22:03,055 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:08.657750 ---
+2025-06-21 09:22:08,659 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:10.999158 ---
+2025-06-21 09:22:10,999 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:11.486256 ---
+2025-06-21 09:22:11,487 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:11.557245 ---
+2025-06-21 09:22:11,557 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:16.546957 ---
+2025-06-21 09:22:16,547 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:19.179779 ---
+2025-06-21 09:22:19,180 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:19.824497 ---
+2025-06-21 09:22:19,825 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:19.897058 ---
+2025-06-21 09:22:19,898 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:28.961503 ---
+2025-06-21 09:22:28,962 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:32.808527 ---
+2025-06-21 09:22:32,810 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:34.371638 ---
+2025-06-21 09:22:34,372 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:34.450584 ---
+2025-06-21 09:22:34,451 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:49.803198 ---
+2025-06-21 09:22:49,804 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:53.326491 ---
+2025-06-21 09:22:53,327 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:54.142537 ---
+2025-06-21 09:22:54,143 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:22:54.211053 ---
+2025-06-21 09:22:54,211 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:01.027925 ---
+2025-06-21 09:23:01,028 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:04.284200 ---
+2025-06-21 09:23:04,286 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:04.904847 ---
+2025-06-21 09:23:04,906 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:04.981180 ---
+2025-06-21 09:23:04,981 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:14.516601 ---
+2025-06-21 09:23:14,517 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:18.334708 ---
+2025-06-21 09:23:18,335 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:18.919948 ---
+2025-06-21 09:23:18,920 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:18.993269 ---
+2025-06-21 09:23:18,993 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:29.241685 ---
+2025-06-21 09:23:29,242 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:32.657782 ---
+2025-06-21 09:23:32,658 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:33.324275 ---
+2025-06-21 09:23:33,325 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:33.391131 ---
+2025-06-21 09:23:33,391 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:35.604775 ---
+2025-06-21 09:23:35,605 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:35.666568 ---
+2025-06-21 09:23:35,667 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:44.793697 ---
+2025-06-21 09:23:44,794 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:47.495176 ---
+2025-06-21 09:23:47,496 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:48.062597 ---
+2025-06-21 09:23:48,063 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:48.155838 ---
+2025-06-21 09:23:48,156 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:56.242380 ---
+2025-06-21 09:23:56,243 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:23:59.458949 ---
+2025-06-21 09:23:59,459 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:00.383108 ---
+2025-06-21 09:24:00,383 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:00.454488 ---
+2025-06-21 09:24:00,455 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:13.567887 ---
+2025-06-21 09:24:13,568 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:17.156689 ---
+2025-06-21 09:24:17,157 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:17.796405 ---
+2025-06-21 09:24:17,800 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:17.873974 ---
+2025-06-21 09:24:17,874 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:24.696782 ---
+2025-06-21 09:24:24,697 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:27.387138 ---
+2025-06-21 09:24:27,387 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:27.939937 ---
+2025-06-21 09:24:27,940 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:28.035489 ---
+2025-06-21 09:24:28,036 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:33.406237 ---
+2025-06-21 09:24:33,407 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:37.559530 ---
+2025-06-21 09:24:37,559 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:38.703792 ---
+2025-06-21 09:24:38,704 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:38.800981 ---
+2025-06-21 09:24:38,801 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:44.159887 ---
+2025-06-21 09:24:44,161 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:47.243815 ---
+2025-06-21 09:24:47,244 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:47.803030 ---
+2025-06-21 09:24:47,803 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:47.869910 ---
+2025-06-21 09:24:47,870 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:54.526737 ---
+2025-06-21 09:24:54,527 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:57.922428 ---
+2025-06-21 09:24:57,924 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:58.571548 ---
+2025-06-21 09:24:58,573 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:24:58.645096 ---
+2025-06-21 09:24:58,645 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:25:03.195596 ---
+2025-06-21 09:25:03,195 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:25:16.588029 ---
+2025-06-21 09:25:16,588 - INFO [dashboard.py:3696] - Dashboard application started.
+2025-06-21 09:25:21,497 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 09:25:21,514 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 09:25:21,525 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 09:25:21,533 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 09:25:21,543 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 09:25:21,548 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 09:25:21,553 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 09:25:21,558 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 09:25:21,562 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 09:25:21,567 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 09:25:21,573 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 09:25:21,579 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 09:25:21,583 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 09:25:21,587 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 09:25:21,591 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 09:25:21,596 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 09:25:21,601 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 09:25:21,605 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 09:25:21,612 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 09:25:21,617 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 09:25:21,617 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 09:25:21,618 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 09:25:21,630 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 09:25:22,192 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 2 ---
+2025-06-21 09:25:22,193 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            665
+1       Acct11            347
+2       Acct17           2177
+3       Acct18             20
+4       Acct20           1623
+2025-06-21 09:25:22,194 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17               25.0
+3       Acct18                2.0
+4       Acct20               68.0
+2025-06-21 09:25:22,194 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            665                0.0
+1       Acct11            347                1.0
+2       Acct17           2177               25.0
+3       Acct18             20                2.0
+4       Acct20           1623               68.0
+2025-06-21 09:25:22,199 - INFO [dashboard.py:592] - Successfully saved user performance for 17 user(s) in run 2.
+--- Log session started at 2025-06-21 09:25:30.260532 ---
+2025-06-21 09:25:30,261 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:25:53.314148 ---
+2025-06-21 09:25:53,314 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:10.162466 ---
+2025-06-21 09:26:10,162 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:18.239232 ---
+2025-06-21 09:26:18,239 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:22.932653 ---
+2025-06-21 09:26:22,933 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:22.988398 ---
+2025-06-21 09:26:22,989 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:23.243089 ---
+2025-06-21 09:26:23,244 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:25.498866 ---
+2025-06-21 09:26:25,500 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:26:27.823400 ---
+2025-06-21 09:26:27,824 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:39.724566 ---
+2025-06-21 09:31:39,725 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:39.775118 ---
+2025-06-21 09:31:39,775 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:45.084575 ---
+2025-06-21 09:31:45,085 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:54.145107 ---
+2025-06-21 09:31:54,145 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:54.819439 ---
+2025-06-21 09:31:54,821 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:55.076632 ---
+2025-06-21 09:31:55,076 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:57.165776 ---
+2025-06-21 09:31:57,167 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:31:59.575743 ---
+2025-06-21 09:31:59,576 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:32:02.684208 ---
+2025-06-21 09:32:02,686 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:32:02.735816 ---
+2025-06-21 09:32:02,736 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:03.124204 ---
+2025-06-21 09:36:03,124 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:09.044643 ---
+2025-06-21 09:36:09,045 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:09.137735 ---
+2025-06-21 09:36:09,138 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:09.398866 ---
+2025-06-21 09:36:09,400 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:28.025499 ---
+2025-06-21 09:36:28,026 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:36:28.077330 ---
+2025-06-21 09:36:28,078 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:46:58.659237 ---
+2025-06-21 09:46:58,660 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:47:05.081922 ---
+2025-06-21 09:47:05,083 - INFO [dashboard.py:3696] - Dashboard application started.
+2025-06-21 09:47:05,811 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 09:47:05,817 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 09:47:05,822 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 09:47:05,828 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 09:47:05,834 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 09:47:05,839 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 09:47:05,844 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 09:47:05,849 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 09:47:05,855 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 09:47:05,860 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 09:47:05,866 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 09:47:05,871 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 09:47:05,876 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 09:47:05,880 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 09:47:05,884 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 09:47:05,889 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 09:47:05,893 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 09:47:05,897 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 09:47:05,904 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 09:47:05,909 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 09:47:05,910 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 09:47:05,910 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 09:47:05,911 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 09:47:05,989 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 3 ---
+2025-06-21 09:47:05,990 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             46
+1       Acct11             24
+2       Acct17            150
+3       Acct24             47
+4        Acct3             50
+2025-06-21 09:47:05,990 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 09:47:05,991 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             46                0.0
+1       Acct11             24                1.0
+2       Acct17            150                2.0
+3       Acct24             47                0.0
+4        Acct3             50                0.0
+2025-06-21 09:47:05,994 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 3.
+--- Log session started at 2025-06-21 09:47:16.981665 ---
+2025-06-21 09:47:16,981 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:47:22.771189 ---
+2025-06-21 09:47:22,771 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:49:35.267762 ---
+2025-06-21 09:49:35,268 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:49:40.406963 ---
+2025-06-21 09:49:40,407 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:49:43.447504 ---
+2025-06-21 09:49:43,448 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:04.155765 ---
+2025-06-21 09:50:04,156 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:06.205361 ---
+2025-06-21 09:50:06,206 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:11.650176 ---
+2025-06-21 09:50:11,651 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:11.765039 ---
+2025-06-21 09:50:11,765 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:12.019002 ---
+2025-06-21 09:50:12,019 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:50:18.903004 ---
+2025-06-21 09:50:18,904 - INFO [dashboard.py:3696] - Dashboard application started.
+2025-06-21 09:50:19,567 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 09:50:19,576 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 09:50:19,583 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 09:50:19,593 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 09:50:19,601 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 09:50:19,608 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 09:50:19,613 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 09:50:19,619 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 09:50:19,624 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 09:50:19,628 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 09:50:19,633 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 09:50:19,639 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 09:50:19,645 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 09:50:19,649 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 09:50:19,653 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 09:50:19,658 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 09:50:19,662 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 09:50:19,666 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 09:50:19,672 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 09:50:19,676 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 09:50:19,676 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 09:50:19,716 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 09:50:19,720 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 09:50:19,796 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 4 ---
+2025-06-21 09:50:19,798 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct11             11
+1       Acct17             57
+2       Acct20             57
+3       Acct24             37
+4        Acct3             54
+2025-06-21 09:50:19,799 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct11                0.0
+1       Acct17                0.0
+2       Acct20                4.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 09:50:19,800 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct11             11                0.0
+1       Acct17             57                0.0
+2       Acct20             57                4.0
+3       Acct24             37                0.0
+4        Acct3             54                0.0
+2025-06-21 09:50:19,805 - INFO [dashboard.py:592] - Successfully saved user performance for 9 user(s) in run 4.
+--- Log session started at 2025-06-21 09:50:27.824489 ---
+2025-06-21 09:50:27,824 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 09:56:03.280052 ---
+2025-06-21 09:56:03,280 - INFO [dashboard.py:3696] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:25.045149 ---
+2025-06-21 10:02:25,045 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:32.256419 ---
+2025-06-21 10:02:32,257 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:44.081554 ---
+2025-06-21 10:02:44,081 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:49.735476 ---
+2025-06-21 10:02:49,736 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:49.849139 ---
+2025-06-21 10:02:49,849 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:50.106813 ---
+2025-06-21 10:02:50,107 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:52.082741 ---
+2025-06-21 10:02:52,083 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:02:55.376918 ---
+2025-06-21 10:02:55,378 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:38.517454 ---
+2025-06-21 10:03:38,518 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:38.568421 ---
+2025-06-21 10:03:38,569 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:45.773878 ---
+2025-06-21 10:03:45,774 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:51.733561 ---
+2025-06-21 10:03:51,737 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:51.846065 ---
+2025-06-21 10:03:51,847 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:52.117079 ---
+2025-06-21 10:03:52,119 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:54.472478 ---
+2025-06-21 10:03:54,473 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:03:56.767558 ---
+2025-06-21 10:03:56,769 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:04:10.696720 ---
+2025-06-21 10:04:10,698 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:04:12.578724 ---
+2025-06-21 10:04:12,579 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:10:25.536401 ---
+2025-06-21 10:10:25,538 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:10:25.634420 ---
+2025-06-21 10:10:25,635 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:10:34.105700 ---
+2025-06-21 10:10:34,106 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:10:35.753661 ---
+2025-06-21 10:10:35,754 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:10:40.878385 ---
+2025-06-21 10:10:40,879 - INFO [dashboard.py:3671] - Dashboard application started.
+--- Log session started at 2025-06-21 10:12:51.481647 ---
+2025-06-21 10:12:51,482 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:12:52.536657 ---
+2025-06-21 10:12:52,537 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:12:58.062255 ---
+2025-06-21 10:12:58,062 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:11.472353 ---
+2025-06-21 10:13:11,473 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:12.677933 ---
+2025-06-21 10:13:12,678 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:14.742311 ---
+2025-06-21 10:13:14,742 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:17.633605 ---
+2025-06-21 10:13:17,635 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:20.188085 ---
+2025-06-21 10:13:20,188 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:22.788707 ---
+2025-06-21 10:13:22,789 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:26.916473 ---
+2025-06-21 10:13:26,917 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:29.085180 ---
+2025-06-21 10:13:29,085 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:42.836647 ---
+2025-06-21 10:13:42,839 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:49.396956 ---
+2025-06-21 10:13:49,398 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:50.813342 ---
+2025-06-21 10:13:50,814 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:13:52.045273 ---
+2025-06-21 10:13:52,046 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:14:28.562832 ---
+2025-06-21 10:14:28,563 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:46.796576 ---
+2025-06-21 10:18:46,797 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:49.973927 ---
+2025-06-21 10:18:49,974 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:52.269992 ---
+2025-06-21 10:18:52,270 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:54.018795 ---
+2025-06-21 10:18:54,020 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:54.097757 ---
+2025-06-21 10:18:54,098 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:55.745383 ---
+2025-06-21 10:18:55,745 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:56.988164 ---
+2025-06-21 10:18:56,989 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:18:57.060604 ---
+2025-06-21 10:18:57,062 - INFO [dashboard.py:3675] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:24.300940 ---
+2025-06-21 10:19:24,301 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:26.977198 ---
+2025-06-21 10:19:26,977 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:34.662182 ---
+2025-06-21 10:19:34,664 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:36.816546 ---
+2025-06-21 10:19:36,818 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:39.355448 ---
+2025-06-21 10:19:39,356 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:19:40.991514 ---
+2025-06-21 10:19:40,992 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:01.011933 ---
+2025-06-21 10:20:01,012 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:01.059467 ---
+2025-06-21 10:20:01,060 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:06.333753 ---
+2025-06-21 10:20:06,334 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:11.684599 ---
+2025-06-21 10:20:11,686 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:11.777394 ---
+2025-06-21 10:20:11,778 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:12.036323 ---
+2025-06-21 10:20:12,036 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:14.601769 ---
+2025-06-21 10:20:14,602 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:17.890782 ---
+2025-06-21 10:20:17,891 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:22.693526 ---
+2025-06-21 10:20:22,694 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:24.645665 ---
+2025-06-21 10:20:24,648 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:45.398786 ---
+2025-06-21 10:20:45,399 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:20:45.454314 ---
+2025-06-21 10:20:45,455 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:13.130621 ---
+2025-06-21 10:36:13,132 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:21.093062 ---
+2025-06-21 10:36:21,094 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:26.982519 ---
+2025-06-21 10:36:26,987 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:27.094653 ---
+2025-06-21 10:36:27,095 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:27.641767 ---
+2025-06-21 10:36:27,642 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:32.056873 ---
+2025-06-21 10:36:32,059 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:35.745076 ---
+2025-06-21 10:36:35,747 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:48.217706 ---
+2025-06-21 10:36:48,219 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:49.163869 ---
+2025-06-21 10:36:49,165 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:51.528948 ---
+2025-06-21 10:36:51,530 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:36:54.393863 ---
+2025-06-21 10:36:54,395 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:37:17.976691 ---
+2025-06-21 10:37:17,977 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:38:48.086563 ---
+2025-06-21 10:38:48,087 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:38:59.721824 ---
+2025-06-21 10:38:59,722 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 10:38:59.800139 ---
+2025-06-21 10:38:59,801 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:20:38.546275 ---
+2025-06-21 11:20:38,547 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:27:40.612615 ---
+2025-06-21 11:27:40,614 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:38:34.558141 ---
+2025-06-21 11:38:34,559 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:38:37.278906 ---
+2025-06-21 11:38:37,280 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:02.378202 ---
+2025-06-21 11:39:02,380 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:27.330364 ---
+2025-06-21 11:39:27,331 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:32.499751 ---
+2025-06-21 11:39:32,503 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:32.628269 ---
+2025-06-21 11:39:32,630 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:33.116518 ---
+2025-06-21 11:39:33,116 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:39.400242 ---
+2025-06-21 11:39:39,403 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 11:39:40,560 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 11:39:40,577 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 11:39:40,594 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 11:39:40,607 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 11:39:40,618 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 11:39:40,632 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 11:39:40,648 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 11:39:40,661 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 11:39:40,673 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 11:39:40,691 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 11:39:40,707 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 11:39:40,720 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 11:39:40,732 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 11:39:40,743 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 11:39:40,753 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 11:39:40,764 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 11:39:40,773 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 11:39:40,781 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 11:39:40,791 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 11:39:40,801 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 11:39:40,801 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 11:39:40,802 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 11:39:40,805 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 11:39:41,036 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 5 ---
+2025-06-21 11:39:41,040 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             22
+1       Acct17            131
+2       Acct20             46
+3       Acct24             36
+4        Acct3             48
+2025-06-21 11:39:41,044 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct17                9.0
+2       Acct20                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 11:39:41,050 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             22                0.0
+1       Acct17            131                9.0
+2       Acct20             46                2.0
+3       Acct24             36                0.0
+4        Acct3             48                0.0
+2025-06-21 11:39:41,061 - INFO [dashboard.py:592] - Successfully saved user performance for 9 user(s) in run 5.
+--- Log session started at 2025-06-21 11:39:44.229818 ---
+2025-06-21 11:39:44,231 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:39:48.259969 ---
+2025-06-21 11:39:48,261 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:22.226127 ---
+2025-06-21 11:41:22,229 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:24.454623 ---
+2025-06-21 11:41:24,455 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:27.783643 ---
+2025-06-21 11:41:27,785 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:33.691062 ---
+2025-06-21 11:41:33,692 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:33.821703 ---
+2025-06-21 11:41:33,823 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:34.309693 ---
+2025-06-21 11:41:34,311 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:39.462354 ---
+2025-06-21 11:41:39,463 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:44.094145 ---
+2025-06-21 11:41:44,097 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:41:47.670026 ---
+2025-06-21 11:41:47,670 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:42:44.350450 ---
+2025-06-21 11:42:44,352 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:42:45.868827 ---
+2025-06-21 11:42:45,870 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:42:48.750519 ---
+2025-06-21 11:42:48,751 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 11:43:01.188834 ---
+2025-06-21 11:43:01,190 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:42:52.619854 ---
+2025-06-21 12:42:52,620 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:02.189266 ---
+2025-06-21 12:43:02,190 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:04.708225 ---
+2025-06-21 12:43:04,708 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:05.152877 ---
+2025-06-21 12:43:05,153 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:05.236516 ---
+2025-06-21 12:43:05,237 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:08.858324 ---
+2025-06-21 12:43:08,858 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:20.288837 ---
+2025-06-21 12:43:20,289 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:28.020946 ---
+2025-06-21 12:43:28,021 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:31.767607 ---
+2025-06-21 12:43:31,769 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:34.291328 ---
+2025-06-21 12:43:34,291 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:36.334184 ---
+2025-06-21 12:43:36,336 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:36.707034 ---
+2025-06-21 12:43:36,707 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:36.787640 ---
+2025-06-21 12:43:36,787 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:38.747524 ---
+2025-06-21 12:43:38,748 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:40.621996 ---
+2025-06-21 12:43:40,622 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:41.129452 ---
+2025-06-21 12:43:41,130 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:41.210038 ---
+2025-06-21 12:43:41,210 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:43.479184 ---
+2025-06-21 12:43:43,480 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:45.415886 ---
+2025-06-21 12:43:45,417 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:45.890149 ---
+2025-06-21 12:43:45,891 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:45.973254 ---
+2025-06-21 12:43:45,973 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:47.849091 ---
+2025-06-21 12:43:47,850 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:49.739667 ---
+2025-06-21 12:43:49,740 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:50.257931 ---
+2025-06-21 12:43:50,259 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:50.339633 ---
+2025-06-21 12:43:50,339 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 12:43:52.608068 ---
+2025-06-21 12:43:52,609 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 17:51:49.674599 ---
+2025-06-21 17:51:49,675 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 17:51:56.202532 ---
+2025-06-21 17:51:56,209 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 17:55:07.307000 ---
+2025-06-21 17:55:07,312 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:01:15.523746 ---
+2025-06-21 18:01:15,525 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:01:16.077228 ---
+2025-06-21 18:01:16,078 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:02:11.121615 ---
+2025-06-21 18:02:11,126 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:02:21,539 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:02:21,576 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:02:21,593 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:02:21,611 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:02:21,622 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:02:21,639 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:02:21,649 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:02:21,658 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:02:21,669 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:02:21,678 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:02:21,687 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:02:21,702 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:02:21,716 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:02:21,727 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:02:21,739 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:02:21,748 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:02:21,757 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:02:21,770 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:02:21,786 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:02:21,803 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:02:21,803 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:02:21,873 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:02:21,911 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 18:02:23,354 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 6 ---
+2025-06-21 18:02:23,358 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            665
+1       Acct11            347
+2       Acct17           2176
+3       Acct18             20
+4       Acct20           1621
+2025-06-21 18:02:23,360 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17               25.0
+3       Acct18                2.0
+4       Acct20               79.0
+2025-06-21 18:02:23,364 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            665                0.0
+1       Acct11            347                1.0
+2       Acct17           2176               25.0
+3       Acct18             20                2.0
+4       Acct20           1621               79.0
+2025-06-21 18:02:23,376 - INFO [dashboard.py:592] - Successfully saved user performance for 17 user(s) in run 6.
+--- Log session started at 2025-06-21 18:04:12.560953 ---
+2025-06-21 18:04:12,561 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:06:13.352027 ---
+2025-06-21 18:06:13,353 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:06:50.595557 ---
+2025-06-21 18:06:50,597 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:07:01.923969 ---
+2025-06-21 18:07:01,925 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:07:08.151379 ---
+2025-06-21 18:07:08,154 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:07:08,295 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:07:08,310 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:07:08,327 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:07:08,346 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:07:08,363 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:07:08,378 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:07:08,394 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:07:08,403 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:07:08,427 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:07:08,444 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:07:08,463 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:07:08,476 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:07:08,497 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:07:08,510 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:07:08,524 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:07:08,544 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:07:08,561 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:07:08,579 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:07:08,606 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:07:08,627 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:07:08,628 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:07:08,631 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+--- Log session started at 2025-06-21 18:08:51.634468 ---
+2025-06-21 18:08:51,635 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:08:51,805 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:08:51,820 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:08:51,835 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:08:51,847 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:08:51,861 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:08:51,874 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:08:51,884 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:08:51,894 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:08:51,903 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:08:51,913 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:08:51,922 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:08:51,931 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:08:51,943 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:08:51,962 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:08:51,976 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:08:51,991 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:08:52,005 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:08:52,019 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:08:52,031 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:08:52,039 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:08:52,040 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:08:52,041 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:08:59,888 - INFO [dashboard.py:3484] - Successfully sent performance email to: vivekbisen.vspl@gmail.com
+--- Log session started at 2025-06-21 18:09:36.270891 ---
+2025-06-21 18:09:36,272 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:09:40.669575 ---
+2025-06-21 18:09:40,671 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:10:11.278441 ---
+2025-06-21 18:10:11,280 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:10:12.573259 ---
+2025-06-21 18:10:12,575 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:10:14.838341 ---
+2025-06-21 18:10:14,841 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:10:22.138967 ---
+2025-06-21 18:10:22,140 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:10:32.932780 ---
+2025-06-21 18:10:32,935 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:11:38.038796 ---
+2025-06-21 18:11:38,040 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:11:38.262155 ---
+2025-06-21 18:11:38,262 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:11:41.143247 ---
+2025-06-21 18:11:41,145 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:11:41.342627 ---
+2025-06-21 18:11:41,345 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:12:42.478336 ---
+2025-06-21 18:12:42,479 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:06.279750 ---
+2025-06-21 18:13:06,280 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:28.497108 ---
+2025-06-21 18:13:28,499 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:28.856462 ---
+2025-06-21 18:13:28,866 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:29.200888 ---
+2025-06-21 18:13:29,201 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:31.360816 ---
+2025-06-21 18:13:31,364 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:13:32.197048 ---
+2025-06-21 18:13:32,198 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:15:03.797753 ---
+2025-06-21 18:15:03,799 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:15:52.443288 ---
+2025-06-21 18:15:52,444 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:15:58.379766 ---
+2025-06-21 18:15:58,381 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:15:59.162234 ---
+2025-06-21 18:15:59,164 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:00.031281 ---
+2025-06-21 18:16:00,032 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:00.255735 ---
+2025-06-21 18:16:00,260 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:00.680559 ---
+2025-06-21 18:16:00,681 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:00.908166 ---
+2025-06-21 18:16:00,910 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:01.170238 ---
+2025-06-21 18:16:01,171 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:01.647655 ---
+2025-06-21 18:16:01,647 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:02.152962 ---
+2025-06-21 18:16:02,185 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:03.815187 ---
+2025-06-21 18:16:03,833 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:16:27.561602 ---
+2025-06-21 18:16:27,563 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:17:04.970775 ---
+2025-06-21 18:17:04,972 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:17:40.834956 ---
+2025-06-21 18:17:40,839 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:17:41.459804 ---
+2025-06-21 18:17:41,461 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:17:52.881198 ---
+2025-06-21 18:17:52,883 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:18:33.407366 ---
+2025-06-21 18:18:33,408 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:06.378194 ---
+2025-06-21 18:19:06,380 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:15.131159 ---
+2025-06-21 18:19:15,133 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:20.663999 ---
+2025-06-21 18:19:20,665 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:21.038163 ---
+2025-06-21 18:19:21,039 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:24.683876 ---
+2025-06-21 18:19:24,685 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:50.042336 ---
+2025-06-21 18:19:50,045 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:19:50.187879 ---
+2025-06-21 18:19:50,188 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:02.320031 ---
+2025-06-21 18:20:02,320 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:07.793267 ---
+2025-06-21 18:20:07,794 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:07.971754 ---
+2025-06-21 18:20:07,972 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:08.504890 ---
+2025-06-21 18:20:08,506 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:17.345268 ---
+2025-06-21 18:20:17,346 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:22.920541 ---
+2025-06-21 18:20:22,923 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:20:23,062 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:20:23,080 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:20:23,092 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:20:23,109 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:20:23,128 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:20:23,144 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:20:23,157 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:20:23,167 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:20:23,190 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:20:23,205 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:20:23,225 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:20:23,239 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:20:23,258 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:20:23,278 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:20:23,297 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:20:23,314 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:20:23,330 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:20:23,347 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:20:23,368 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:20:23,387 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:20:23,387 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:20:23,389 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+--- Log session started at 2025-06-21 18:20:29.177705 ---
+2025-06-21 18:20:29,179 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:33.032728 ---
+2025-06-21 18:20:33,034 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:20:46.090122 ---
+2025-06-21 18:20:46,091 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:21:18.706285 ---
+2025-06-21 18:21:18,708 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:21:23.702425 ---
+2025-06-21 18:21:23,706 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:21:53.890507 ---
+2025-06-21 18:21:53,891 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:00.614879 ---
+2025-06-21 18:22:00,617 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:05.178722 ---
+2025-06-21 18:22:05,181 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:05.364705 ---
+2025-06-21 18:22:05,366 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:05.909158 ---
+2025-06-21 18:22:05,909 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:15.349468 ---
+2025-06-21 18:22:15,350 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:19.303580 ---
+2025-06-21 18:22:19,305 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:24.939253 ---
+2025-06-21 18:22:24,943 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:25.131017 ---
+2025-06-21 18:22:25,133 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:29.585831 ---
+2025-06-21 18:22:29,589 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:31.850563 ---
+2025-06-21 18:22:31,851 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:36.001772 ---
+2025-06-21 18:22:36,003 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:22:43.520385 ---
+2025-06-21 18:22:43,522 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:23:24.790338 ---
+2025-06-21 18:23:24,792 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:23:27.569973 ---
+2025-06-21 18:23:27,571 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:44:52.658371 ---
+2025-06-21 18:44:52,659 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:45:34.573735 ---
+2025-06-21 18:45:34,575 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:45:41.413661 ---
+2025-06-21 18:45:41,414 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:45:41.611616 ---
+2025-06-21 18:45:41,612 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:45:42.108360 ---
+2025-06-21 18:45:42,108 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:45:52.645458 ---
+2025-06-21 18:45:52,649 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 18:46:00.944858 ---
+2025-06-21 18:46:00,947 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:46:02,537 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:46:02,548 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:46:02,561 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:46:02,574 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:46:02,588 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:46:02,601 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:46:02,610 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:46:02,620 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:46:02,632 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:46:02,641 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:46:02,652 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:46:02,670 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:46:02,686 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:46:02,707 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:46:02,716 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:46:02,725 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:46:02,738 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:46:02,746 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:46:02,757 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:46:02,766 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:46:02,767 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:46:02,768 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:46:02,770 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 18:46:02,906 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 7 ---
+2025-06-21 18:46:02,908 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            180
+1       Acct11             13
+2       Acct17             68
+3       Acct20              1
+4        Acct3              1
+2025-06-21 18:46:02,909 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                  0
+1       Acct11                  0
+2       Acct17                  0
+3       Acct20                  0
+4        Acct3                  0
+2025-06-21 18:46:02,910 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            180                  0
+1       Acct11             13                  0
+2       Acct17             68                  0
+3       Acct20              1                  0
+4        Acct3              1                  0
+2025-06-21 18:46:02,916 - INFO [dashboard.py:592] - Successfully saved user performance for 5 user(s) in run 7.
+2025-06-21 18:46:02,923 - INFO [dashboard.py:1494] - create_excel_report: exceptions_df is empty for VNR_SEEDS_PRIVATE_LIMITEDActual_Expense_Reportdaily12.06.2025.xlsx. Creating empty Exceptions sheet.
+--- Log session started at 2025-06-21 18:46:29.251875 ---
+2025-06-21 18:46:29,252 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:46:30,925 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:46:30,945 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:46:30,961 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:46:30,981 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:46:30,998 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:46:31,012 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:46:31,021 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:46:31,032 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:46:31,042 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:46:31,058 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:46:31,087 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:46:31,108 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:46:31,124 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:46:31,133 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:46:31,141 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:46:31,150 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:46:31,162 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:46:31,174 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:46:31,184 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:46:31,195 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:46:31,195 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:46:31,196 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:46:31,199 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 18:46:31,371 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 8 ---
+2025-06-21 18:46:31,374 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            180
+1       Acct11             13
+2       Acct17             68
+3       Acct20              1
+4        Acct3              1
+2025-06-21 18:46:31,376 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                  0
+1       Acct11                  0
+2       Acct17                  0
+3       Acct20                  0
+4        Acct3                  0
+2025-06-21 18:46:31,378 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            180                  0
+1       Acct11             13                  0
+2       Acct17             68                  0
+3       Acct20              1                  0
+4        Acct3              1                  0
+2025-06-21 18:46:31,382 - INFO [dashboard.py:592] - Successfully saved user performance for 5 user(s) in run 8.
+2025-06-21 18:46:31,389 - INFO [dashboard.py:1494] - create_excel_report: exceptions_df is empty for VNR_SEEDS_PRIVATE_LIMITEDActual_Expense_Reportdaily12.06.2025.xlsx. Creating empty Exceptions sheet.
+--- Log session started at 2025-06-21 18:46:40.418527 ---
+2025-06-21 18:46:40,422 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 18:46:41,872 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:46:41,895 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:46:41,916 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:46:41,942 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:46:41,961 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:46:41,976 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:46:41,986 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:46:41,996 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:46:42,006 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:46:42,019 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:46:42,027 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:46:42,046 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:46:42,056 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:46:42,064 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:46:42,073 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:46:42,084 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:46:42,096 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:46:42,112 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:46:42,129 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:46:42,144 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:46:42,145 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:46:42,149 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:46:42,153 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 18:46:42,325 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 9 ---
+2025-06-21 18:46:42,327 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            180
+1       Acct11             13
+2       Acct17             68
+3       Acct20              1
+4        Acct3              1
+2025-06-21 18:46:42,329 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                  0
+1       Acct11                  0
+2       Acct17                  0
+3       Acct20                  0
+4        Acct3                  0
+2025-06-21 18:46:42,331 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            180                  0
+1       Acct11             13                  0
+2       Acct17             68                  0
+3       Acct20              1                  0
+4        Acct3              1                  0
+2025-06-21 18:46:42,338 - INFO [dashboard.py:592] - Successfully saved user performance for 5 user(s) in run 9.
+2025-06-21 18:46:42,345 - INFO [dashboard.py:1494] - create_excel_report: exceptions_df is empty for VNR_SEEDS_PRIVATE_LIMITEDActual_Expense_Reportdaily12.06.2025.xlsx. Creating empty Exceptions sheet.
+2025-06-21 18:46:43,708 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 18:46:43,720 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 18:46:43,735 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 18:46:43,746 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 18:46:43,759 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 18:46:43,770 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 18:46:43,785 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 18:46:43,804 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 18:46:43,814 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 18:46:43,833 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 18:46:43,844 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 18:46:43,853 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 18:46:43,864 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 18:46:43,873 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 18:46:43,881 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 18:46:43,890 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 18:46:43,899 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 18:46:43,907 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 18:46:43,922 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 18:46:43,932 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 18:46:43,933 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 18:46:43,934 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 18:46:43,937 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 18:46:44,115 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 10 ---
+2025-06-21 18:46:44,117 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             46
+1       Acct11             24
+2       Acct17            150
+3       Acct24             47
+4        Acct3             50
+2025-06-21 18:46:44,118 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 18:46:44,121 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             46                0.0
+1       Acct11             24                1.0
+2       Acct17            150                2.0
+3       Acct24             47                0.0
+4        Acct3             50                0.0
+2025-06-21 18:46:44,129 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 10.
+--- Log session started at 2025-06-21 18:51:26.415094 ---
+2025-06-21 18:51:26,417 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:12:20.146857 ---
+2025-06-21 19:12:20,148 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:12:28.018159 ---
+2025-06-21 19:12:28,019 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 19:12:30,310 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 19:12:30,334 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 19:12:30,353 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 19:12:30,378 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 19:12:30,392 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 19:12:30,405 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 19:12:30,416 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 19:12:30,436 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 19:12:30,450 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 19:12:30,475 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 19:12:30,495 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 19:12:30,512 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 19:12:30,545 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 19:12:30,569 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 19:12:30,589 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 19:12:30,607 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 19:12:30,625 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 19:12:30,642 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 19:12:30,658 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 19:12:30,675 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 19:12:30,676 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 19:12:30,677 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 19:12:30,681 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 19:12:30,898 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 11 ---
+2025-06-21 19:12:30,900 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             46
+1       Acct11             24
+2       Acct17            150
+3       Acct24             47
+4        Acct3             50
+2025-06-21 19:12:30,904 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 19:12:30,907 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             46                0.0
+1       Acct11             24                1.0
+2       Acct17            150                2.0
+3       Acct24             47                0.0
+4        Acct3             50                0.0
+2025-06-21 19:12:30,915 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 11.
+--- Log session started at 2025-06-21 19:12:35.418801 ---
+2025-06-21 19:12:35,421 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 19:12:37,249 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 19:12:37,266 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 19:12:37,284 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 19:12:37,299 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 19:12:37,319 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 19:12:37,338 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 19:12:37,356 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 19:12:37,372 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 19:12:37,390 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 19:12:37,402 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 19:12:37,417 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 19:12:37,426 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 19:12:37,437 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 19:12:37,453 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 19:12:37,467 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 19:12:37,493 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 19:12:37,506 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 19:12:37,520 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 19:12:37,533 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 19:12:37,544 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 19:12:37,544 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 19:12:37,546 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 19:12:37,549 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 19:12:37,704 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 12 ---
+2025-06-21 19:12:37,706 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             46
+1       Acct11             24
+2       Acct17            150
+3       Acct24             47
+4        Acct3             50
+2025-06-21 19:12:37,708 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 19:12:37,710 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             46                0.0
+1       Acct11             24                1.0
+2       Acct17            150                2.0
+3       Acct24             47                0.0
+4        Acct3             50                0.0
+2025-06-21 19:12:37,717 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 12.
+--- Log session started at 2025-06-21 19:12:43.851727 ---
+2025-06-21 19:12:43,853 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 19:12:45,643 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 19:12:45,658 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 19:12:45,670 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 19:12:45,684 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 19:12:45,706 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 19:12:45,731 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 19:12:45,751 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 19:12:45,765 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 19:12:45,781 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 19:12:45,795 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 19:12:45,809 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 19:12:45,824 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 19:12:45,840 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 19:12:45,855 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 19:12:45,874 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 19:12:45,889 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 19:12:45,923 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 19:12:45,952 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 19:12:45,989 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 19:12:46,015 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 19:12:46,016 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 19:12:46,018 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 19:12:46,022 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 19:12:46,175 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 13 ---
+2025-06-21 19:12:46,178 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10             46
+1       Acct11             24
+2       Acct17            150
+3       Acct24             47
+4        Acct3             50
+2025-06-21 19:12:46,182 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17                2.0
+3       Acct24                0.0
+4        Acct3                0.0
+2025-06-21 19:12:46,186 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10             46                0.0
+1       Acct11             24                1.0
+2       Acct17            150                2.0
+3       Acct24             47                0.0
+4        Acct3             50                0.0
+2025-06-21 19:12:46,195 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 13.
+2025-06-21 19:12:47,972 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 19:12:47,989 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 19:12:48,011 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 19:12:48,029 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 19:12:48,043 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 19:12:48,056 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 19:12:48,066 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 19:12:48,079 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 19:12:48,094 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 19:12:48,117 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 19:12:48,132 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 19:12:48,157 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 19:12:48,175 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 19:12:48,184 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 19:12:48,200 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 19:12:48,212 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 19:12:48,224 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 19:12:48,239 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 19:12:48,252 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 19:12:48,267 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 19:12:48,268 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 19:12:48,270 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 19:12:48,273 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 19:12:48,488 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 14 ---
+2025-06-21 19:12:48,494 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct11             13
+1       Acct17            163
+2       Acct20             20
+3       Acct24             43
+4        Acct3             99
+2025-06-21 19:12:48,497 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct11                0.0
+1       Acct17                0.0
+2       Acct20                0.0
+3       Acct24                2.0
+4        Acct3                0.0
+2025-06-21 19:12:48,500 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct11             13                0.0
+1       Acct17            163                0.0
+2       Acct20             20                0.0
+3       Acct24             43                2.0
+4        Acct3             99                0.0
+2025-06-21 19:12:48,511 - INFO [dashboard.py:592] - Successfully saved user performance for 8 user(s) in run 14.
+2025-06-21 19:12:48,663 - ERROR [dashboard.py:1803] - Unhandled error processing uploaded file VNR_SEEDS_PRIVATE_LIMITEDActual_Expense_Report daily 14.06.2025.xlsx: There are multiple elements with the same `key='upload_view_editor'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/home/vnrfinance/validation_dashboard/dashboard.py", line 1785, in process_uploaded_file
+    display_interactive_exceptions(exceptions_display_df, key_prefix="upload_view")
+  File "/home/vnrfinance/validation_dashboard/dashboard.py", line 1596, in display_interactive_exceptions
+    edited_df = st.data_editor(
+                ^^^^^^^^^^^^^^^
+  File "/home/vnrfinance/.local/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vnrfinance/.local/lib/python3.12/site-packages/streamlit/elements/widgets/data_editor.py", line 935, in data_editor
+    element_id = compute_and_register_element_id(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vnrfinance/.local/lib/python3.12/site-packages/streamlit/elements/lib/utils.py", line 254, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+  File "/home/vnrfinance/.local/lib/python3.12/site-packages/streamlit/elements/lib/utils.py", line 143, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='upload_view_editor'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+--- Log session started at 2025-06-21 19:12:51.409603 ---
+2025-06-21 19:12:51,412 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:13:02.142617 ---
+2025-06-21 19:13:02,143 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:13:06.555785 ---
+2025-06-21 19:13:06,557 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:13:20.936464 ---
+2025-06-21 19:13:20,938 - INFO [dashboard.py:3683] - Dashboard application started.
+2025-06-21 19:13:32,254 - INFO [dashboard.py:1055] - Loaded 8 items for 'FC_Crop' from 'FC-field crop.xlsx'.
+2025-06-21 19:13:32,282 - INFO [dashboard.py:1055] - Loaded 49 items for 'VC_Crop' from 'VC-Veg Crop.xlsx'.
+2025-06-21 19:13:32,313 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBFC_Region' from 'SBFC-Region.xlsx'.
+2025-06-21 19:13:32,334 - INFO [dashboard.py:1055] - Loaded 15 items for 'SBVC_Region' from 'SBVC-Region.xlsx'.
+2025-06-21 19:13:32,347 - INFO [dashboard.py:1055] - Loaded 5 items for 'SaleFC_Zone' from 'SaleFC-Zone.xlsx'.
+2025-06-21 19:13:32,358 - INFO [dashboard.py:1055] - Loaded 6 items for 'SaleVC_Zone' from 'SaleVC-Zone.xlsx'.
+2025-06-21 19:13:32,369 - INFO [dashboard.py:1055] - Loaded 1 items for 'FC_BU' from 'FC-BU.xlsx'.
+2025-06-21 19:13:32,380 - INFO [dashboard.py:1055] - Loaded 2 items for 'VC_BU' from 'VC-BU.xlsx'.
+2025-06-21 19:13:32,396 - INFO [dashboard.py:1055] - Loaded 1 items for 'Fruit_Crop' from 'Fruit Crop.xlsx'.
+2025-06-21 19:13:32,423 - INFO [dashboard.py:1055] - Loaded 1 items for 'Common_Crop' from 'Common crop.xlsx'.
+2025-06-21 19:13:32,451 - INFO [dashboard.py:1055] - Loaded 2 items for 'ProductionFC_Zone' from 'ProductionFC-Zone.xlsx'.
+2025-06-21 19:13:32,471 - INFO [dashboard.py:1055] - Loaded 3 items for 'ProductionVC_Zone' from 'ProductionVC-Zone.xlsx'.
+2025-06-21 19:13:32,488 - INFO [dashboard.py:1055] - Loaded 5 items for 'SalesActivity' from 'SalesActivity.xlsx'.
+2025-06-21 19:13:32,498 - INFO [dashboard.py:1055] - Loaded 5 items for 'MarketingActivity' from 'MarketingActivity.xlsx'.
+2025-06-21 19:13:32,508 - INFO [dashboard.py:1055] - Loaded 1 items for 'RS_BU' from 'RS-BU.xlsx'.
+2025-06-21 19:13:32,518 - INFO [dashboard.py:1055] - Loaded 1 items for 'SaleRS_Zone' from 'SaleRS-Zone.xlsx'.
+2025-06-21 19:13:32,528 - INFO [dashboard.py:1055] - Loaded 3 items for 'SBRS_Region' from 'SBRS-Region.xlsx'.
+2025-06-21 19:13:32,536 - INFO [dashboard.py:1055] - Loaded 1 items for 'Root Stock_Crop' from 'Root Stock Crop.xlsx'.
+2025-06-21 19:13:32,547 - INFO [dashboard.py:1055] - Loaded 46 items for 'Region_Excluded_Accounts' from 'Region.Name excluded.xlsx'.
+2025-06-21 19:13:32,558 - INFO [dashboard.py:1055] - Loaded 12 items for 'Zone_Excluded_Accounts' from 'Zone.Name excluded.xlsx'.
+2025-06-21 19:13:32,559 - INFO [dashboard.py:1078] - Reference data loading process completed.
+2025-06-21 19:13:32,560 - INFO [dashboard.py:966] - Successfully loaded 499 ledger-subledger mapping combinations into validator.
+2025-06-21 19:13:32,583 - INFO [dashboard.py:1423] - Starting parallel validation with 8 workers.
+2025-06-21 19:13:33,743 - INFO [dashboard.py:570] - --- Debugging User Performance for Run ID: 15 ---
+2025-06-21 19:13:33,744 - INFO [dashboard.py:571] - Total Records DF Head:
+  Created user  total_records
+0       Acct10            665
+1       Acct11            347
+2       Acct17           2176
+3       Acct18             20
+4       Acct20           1618
+2025-06-21 19:13:33,746 - INFO [dashboard.py:572] - Exception Records DF Head:
+  Created user  exception_records
+0       Acct10                0.0
+1       Acct11                1.0
+2       Acct17               25.0
+3       Acct18                2.0
+4       Acct20               88.0
+2025-06-21 19:13:33,747 - INFO [dashboard.py:573] - Final Merged User Stats DF Head:
+  Created user  total_records  exception_records
+0       Acct10            665                0.0
+1       Acct11            347                1.0
+2       Acct17           2176               25.0
+3       Acct18             20                2.0
+4       Acct20           1618               88.0
+2025-06-21 19:13:33,754 - INFO [dashboard.py:592] - Successfully saved user performance for 17 user(s) in run 15.
+--- Log session started at 2025-06-21 19:13:46.996298 ---
+2025-06-21 19:13:46,997 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:13:57.657819 ---
+2025-06-21 19:13:57,659 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:14:02.127599 ---
+2025-06-21 19:14:02,129 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:14:12.216227 ---
+2025-06-21 19:14:12,218 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:14:27.683621 ---
+2025-06-21 19:14:27,685 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:14:27.840848 ---
+2025-06-21 19:14:27,842 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:16:53.383179 ---
+2025-06-21 19:16:53,383 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:01.965821 ---
+2025-06-21 19:17:01,969 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:09.875357 ---
+2025-06-21 19:17:09,875 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:10.047361 ---
+2025-06-21 19:17:10,049 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:21.687263 ---
+2025-06-21 19:17:21,691 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:21.865148 ---
+2025-06-21 19:17:21,866 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:22.348961 ---
+2025-06-21 19:17:22,350 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:17:48.175981 ---
+2025-06-21 19:17:48,177 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:18:07.851456 ---
+2025-06-21 19:18:07,852 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:18:10.791613 ---
+2025-06-21 19:18:10,792 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:18:17.407996 ---
+2025-06-21 19:18:17,409 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:18:24.358729 ---
+2025-06-21 19:18:24,361 - INFO [dashboard.py:3683] - Dashboard application started.
+--- Log session started at 2025-06-21 19:21:49.952255 ---
+2025-06-21 19:21:49,953 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 19:21:53.985793 ---
+2025-06-21 19:21:53,988 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 19:22:04.212770 ---
+2025-06-21 19:22:04,215 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 19:22:04.391291 ---
+2025-06-21 19:22:04,392 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 19:22:04.884056 ---
+2025-06-21 19:22:04,886 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 19:22:15.594341 ---
+2025-06-21 19:22:15,596 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:38:19.693653 ---
+2025-06-21 21:38:19,694 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:20.830406 ---
+2025-06-21 21:39:20,832 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:27.506517 ---
+2025-06-21 21:39:27,508 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:27.692537 ---
+2025-06-21 21:39:27,694 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:28.188594 ---
+2025-06-21 21:39:28,189 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:46.277662 ---
+2025-06-21 21:39:46,279 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:39:56.721296 ---
+2025-06-21 21:39:56,722 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:04.879127 ---
+2025-06-21 21:40:04,881 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:06.542140 ---
+2025-06-21 21:40:06,544 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:07.037671 ---
+2025-06-21 21:40:07,038 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:09.380646 ---
+2025-06-21 21:40:09,381 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:11.515593 ---
+2025-06-21 21:40:11,516 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:16.845029 ---
+2025-06-21 21:40:16,846 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:27.806834 ---
+2025-06-21 21:40:27,808 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:38.663616 ---
+2025-06-21 21:40:38,665 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:40:50.189594 ---
+2025-06-21 21:40:50,191 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:41:02.143919 ---
+2025-06-21 21:41:02,145 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:41:11.808352 ---
+2025-06-21 21:41:11,810 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:41:12.826908 ---
+2025-06-21 21:41:12,828 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:41:14.371747 ---
+2025-06-21 21:41:14,373 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:41:34.965727 ---
+2025-06-21 21:41:34,966 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:42:53.279543 ---
+2025-06-21 21:42:53,281 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 21:43:01.149896 ---
+2025-06-21 21:43:01,150 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 22:25:32.302378 ---
+2025-06-21 22:25:32,304 - INFO [dashboard.py:3688] - Dashboard application started.
+--- Log session started at 2025-06-21 22:25:32.433906 ---
+2025-06-21 22:25:32,434 - INFO [dashboard.py:3688] - Dashboard application started.
